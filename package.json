@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/kh1amirhamza/node-project-1/issues"
   },
-  "homepage": "https://github.com/kh1amirhamza/node-project-1#readme"
+  "homepage": "https://github.com/kh1amirhamza/node-project-1#readme",
+  "engines": {
+    "node": "12.18.4"
+  }
 }
