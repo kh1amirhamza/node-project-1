@@ -1,6 +1,6 @@
 var http = require('http');
-var admin = require('firebase-admin');
-var adminInit = false;
+//var admin = require('firebase-admin');
+//var adminInit = false;
 var server = http.createServer(function (req, res) {
     res.write('Welcome');
     res.end();
@@ -50,11 +50,6 @@ var server = http.createServer(function (req, res) {
 
 
 
-
-
-
-
-
         /!*!// The topic name can be optionally prefixed with "/topics/".
                 var topic = 'weather';
 
@@ -79,12 +74,6 @@ var server = http.createServer(function (req, res) {
 
 
 
-
-
-
-
-
-
         var a=6;
         var b= 7;
         var c= a+b;
@@ -97,11 +86,8 @@ var server = http.createServer(function (req, res) {
         res.end();
     }
 */
-
-
-
 });
-server.listen('https://freewebhostingdemo.web.app/a');
+server.listen(5050);
 console.log("Server Run Success");
 
 // Initialize the default app
