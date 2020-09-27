@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf2af86b-ac04-4987-a875-9b6f908ac9e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/NodeJsPoject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +37,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601069912327</updated>
       <workItem from="1601069913552" duration="1629000" />
+      <workItem from="1601197659922" duration="1185000" />
+      <workItem from="1601198893145" duration="644000" />
     </task>
     <servers />
   </component>
