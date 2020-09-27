@@ -20,5 +20,8 @@
   "homepage": "https://github.com/kh1amirhamza/node-project-1#readme",
   "engines": {
     "node": "12.18.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
