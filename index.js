@@ -6,7 +6,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', function (req, res) {
-    res.send('<h1>Browser is listening</h1>')
+
 
     var serviceAccount = require("C:\\Users\\User\\Desktop\\fcm-example-d62f4-firebase-adminsdk-cuto4-7ab68096c0.json");
 
@@ -42,7 +42,7 @@ app.get('/', function (req, res) {
             console.log('Error sending message:', error);
         });
 
-
+    res.send('<h1>Website is working</h1>',)
 })
 
 const PORT = process.env.PORT || 8080
