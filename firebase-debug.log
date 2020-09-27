@@ -1,0 +1,9 @@
+[debug] [2020-09-27T17:58:08.643Z] ----------------------------------------------------------------------
+[debug] [2020-09-27T17:58:08.648Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2020-09-27T17:58:08.649Z] CLI Version:   8.11.2
+[debug] [2020-09-27T17:58:08.649Z] Platform:      win32
+[debug] [2020-09-27T17:58:08.649Z] Node Version:  v12.18.4
+[debug] [2020-09-27T17:58:08.662Z] Time:          Sun Sep 27 2020 23:58:08 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-09-27T17:58:08.663Z] ----------------------------------------------------------------------
+[debug] [2020-09-27T17:58:08.663Z] 
+[info] Already logged in as kh1amirhamza@gmail.com
