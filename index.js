@@ -1,10 +1,36 @@
-var http = require('http');
+
+const express = require('express')
+
+const app = express()
+
+app.get('/',function (req,res){
+    res.send('<h1>Browser is listening</h1>')
+})
+
+const PORT = process.env.PORT || 8080
+app.listen(PORT,function (){
+    console.log('Server is running on port: '+PORT)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+//var http = require('http');
 //var admin = require('firebase-admin');
 //var adminInit = false;
-var server = http.createServer(function (req, res) {
+/*var server = http.createServer(function (req, res) {
     res.writeHead(200,{'Content-Type':'text/html'})
-    res.write('<h1>hfdj</h1>');
-    res.end();
+    res.write('<h1>hfdjfyhjkjh</h1>');
+    res.end();*/
 
  /*   if (req.url=="/"){
         res.writeHead(200,{'Content-Type':'text/html'})
@@ -87,9 +113,9 @@ var server = http.createServer(function (req, res) {
         res.end();
     }
 */
-});
-server.listen(5050);
-console.log("Server Run Success");
+//});
+//server.listen(5050);
+//console.log("Server Run Success");
 
 // Initialize the default app
 
