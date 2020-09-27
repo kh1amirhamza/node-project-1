@@ -2,11 +2,19 @@ const http = require('http');
 const admin = require('firebase-admin');
 var adminInit = false;
 const express = require('express')
-
 const app = express()
+//Middleware...
+app.use(express.json())
 
-app.get('/', function (req, res) {
 
+
+
+app.post('/', function (req, res) {
+
+    let notificationData = req.body;
+    let title = notificationData.title;
+    let description = notificationData.description;
+    console.log(title+"   "+description);
 
     var serviceAccount = require('./fcm-example-d62f4-firebase-adminsdk-cuto4-7ab68096c0.json');
 
@@ -25,8 +33,8 @@ app.get('/', function (req, res) {
 // See documentation on defining a message payload.
     var message = {
         notification: {
-            title: 'This is Notification Title',
-            body: 'This is Notification Body'
+            title: title,
+            body: description
         },
         condition: condition
     };
@@ -45,7 +53,7 @@ app.get('/', function (req, res) {
     res.end()
 })
 
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 1010
 app.listen(PORT, function (err) {
     if (err){
         console.log(err)

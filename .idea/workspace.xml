@@ -32,8 +32,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\node-example" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,7 +55,7 @@
       <workItem from="1601203109553" duration="2641000" />
       <workItem from="1601210752318" duration="1721000" />
       <workItem from="1601221019778" duration="78000" />
-      <workItem from="1601228489368" duration="3907000" />
+      <workItem from="1601228489368" duration="7977000" />
     </task>
     <servers />
   </component>
