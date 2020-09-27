@@ -8,7 +8,7 @@ const app = express()
 app.get('/', function (req, res) {
 
 
-    var serviceAccount = require("C:\\Users\\User\\Desktop\\fcm-example-d62f4-firebase-adminsdk-cuto4-7ab68096c0.json");
+    var serviceAccount = require('./fcm-example-d62f4-firebase-adminsdk-cuto4-7ab68096c0.json');
 
     if (adminInit == false) {
         admin.initializeApp({
@@ -41,16 +41,17 @@ app.get('/', function (req, res) {
         .catch((error) => {
             console.log('Error sending message:', error);
         });
-
     res.send('<h1>Website is working</h1>',)
+    res.end()
 })
 
 const PORT = process.env.PORT || 8080
-app.listen(PORT, function () {
+app.listen(PORT, function (err) {
+    if (err){
+        console.log(err)
+    }else {
     console.log('Server is running on port: ' + PORT)
-
-
-
+    }
 
 })
 
