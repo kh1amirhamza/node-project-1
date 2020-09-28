@@ -9,7 +9,7 @@ app.use(express.json())
 
 
 
-app.post('/', function (req, res) {
+app.post('/sendNotification', function (req, res) {
 
     let notificationData = req.body;
     let title = notificationData.title;
