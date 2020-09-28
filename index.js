@@ -26,17 +26,31 @@ app.post('/sendNotification', function (req, res) {
         adminInit = true;
     }
 
-    // Define a condition which will send to devices which are subscribed
-// to either the Google stock or the tech industry topics.
-    var condition = "'weather' in topics || 'industry-tech' in topics";
 
-// See documentation on defining a message payload.
+    /*
+        // Define a condition which will send to devices which are subscribed
+    // to either the Google stock or the tech industry topics.
+        var condition = "'weather' in topics || 'industry-tech' in topics";
+
+    // See documentation on defining a message payload.
+        var message = {
+            notification: {
+                title: title,
+                body: description
+            },
+            condition: condition
+        };
+    */
+
+    // The topic name can be optionally prefixed with "/topics/".
+    var topic = 'weather';
+
     var message = {
-        notification: {
+        data: {
             title: title,
             body: description
         },
-        condition: condition
+        topic: topic
     };
 
     // Send a message to devices subscribed to the combination of topics
