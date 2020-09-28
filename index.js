@@ -49,7 +49,7 @@ app.post('/sendNotification', function (req, res) {
         .catch((error) => {
             console.log('Error sending message:', error);
         });
-    res.send('<h1>Website is working</h1>',)
+    res.send('{"message":"Notification send successful"}',)
     res.end()
 })
 
